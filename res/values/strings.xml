@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SQLiteJavaYa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg_ingrese_codigo">Ingrese cod artículo</string>
+    <string name="msg_ingrese_descripcion">Descripcion artículo</string>
+    <string name="msg_ingrese_precio">Precio artículo</string>
+    <string name="btn_alta">Alta</string>
+    <string name="btn_search_codigo">Consulta por codigo</string>
+    <string name="btn_search_descripcion">Consulta por descripcion </string>
+    <string name="btn_baja_codigo">Baja por codigo</string>
+    <string name="btn_listar">Listar artículos</string>
+    <string name="title_activity_articulo">ArticuloActivity</string>
+    
+    
+    <string name="msg_articulo">Artículo:</string>
+    <string name="msg_codigo">Código:</string>
+    <string name="msg_precio">Precio:</string>
+
+</resources>
