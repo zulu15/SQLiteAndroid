@@ -1,5 +1,6 @@
 package com.example.sql.data;
 
+
 import java.util.List;
 
 import com.example.model.Articulo;
@@ -13,6 +14,8 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 public class CustomAdapter extends ArrayAdapter<Articulo>{
+
+
 
 	private List<Articulo> articulos;
 	LayoutInflater inflater;
@@ -49,5 +52,11 @@ public class CustomAdapter extends ArrayAdapter<Articulo>{
 		
 		public TextView codigo,descripcion,precio;
 		
+	}
+	
+	public void refreshEvents(List<Articulo> events) {
+	    this.articulos.clear();
+	    this.articulos.addAll(events);
+	    notifyDataSetChanged();
 	}
 }

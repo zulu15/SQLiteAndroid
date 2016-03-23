@@ -13,10 +13,18 @@
     <string name="btn_baja_codigo">Baja por codigo</string>
     <string name="btn_listar">Listar artículos</string>
     <string name="title_activity_articulo">ArticuloActivity</string>
-    
-    
     <string name="msg_articulo">Artículo:</string>
     <string name="msg_codigo">Código:</string>
     <string name="msg_precio">Precio:</string>
+    
+    <string name="txt_dialog_codigo">Código del artículo</string>
+      <string name="title_edit_fragment">Editar artículo</string>
+
+    <string-array name="menu_options">
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+
+
 
 </resources>
